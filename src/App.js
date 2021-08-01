@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("/test")
+      .get("/api/test")
       .then((res) => {
         console.log(res.data);
         setApiData(res.data);
